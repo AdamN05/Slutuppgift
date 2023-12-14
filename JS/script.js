@@ -58,7 +58,7 @@ const fetchData = async () => {
 
               // Skapar en knapp för användaren att klicka på
               const readyButton = document.createElement('button');
-              readyButton.textContent = 'Jag är redo att beställa';
+              readyButton.textContent = 'Jag är redo att beställa (Kopiera innan du klickar)';
               readyButton.addEventListener('click', async () => {
                   // prompta användaren
                   const userRecipeInput = prompt('Vilken specifik rätt vill du ha?');
